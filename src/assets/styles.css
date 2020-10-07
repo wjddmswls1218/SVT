@@ -1,0 +1,50 @@
+.box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    width: 80px;
+    height: 100%;
+    background-color: black;
+}
+
+.box2 {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+.box2__col1 {
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.box2__col2 {
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+}
+
+.box2__col3 {
+    width: 100%;
+    height: 440px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+}
+
+.box2__col3__1 {
+    width: 50%;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+.box2__col3__2 {
+    width: 50%;
+    height: 100%;
+    background-color: chartreuse;
+}
